@@ -11,13 +11,6 @@
     --input-hover-bd-color: #282E3F;
 }
 
-html {
-    scroll-behavior: smooth;
-    font-family: "Roboto", sans-serif;
-    /* font-family: Georgia, serif; */
-}
-
-
 
 .animated-collapse{
     transition: width 0.3s ease;
