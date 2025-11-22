@@ -1,6 +1,7 @@
 
 :root{
 
+
     --primary-color: #ff0000;
 
     --btn-color: #6200ff;/* button color*/
@@ -8,9 +9,17 @@
 
     --primary-text-color: #282E3F;
     /* --link-hover: #4f55c1; */
+
+
     --input-hover-bd-color: #282E3F;
 }
 
+html {
+    scroll-behavior:inherit;
+    font-family: "Roboto", sans-serif;
+    size: 0cap;
+    /* font-family: Georgia, serif; */
+}
 
 .animated-collapse{
     transition: width 0.3s ease;
