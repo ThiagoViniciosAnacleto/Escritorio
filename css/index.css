@@ -1,10 +1,10 @@
 
 :root{
 
-    --primary-color: #282E3F;
+    --primary-color: #ff0000;
 
-    --btn-color: #fdfdfd;/* button color*/
-    --btn-bg: #282E3F;/* button bg color*/
+    --btn-color: #6200ff;/* button color*/
+    --btn-bg: #00ff80;/* button bg color*/
 
     --primary-text-color: #282E3F;
     /* --link-hover: #4f55c1; */
@@ -18,10 +18,10 @@
 
 .header-links {
     display: flex;
-    align-items: center;
+    align-items: left;
     min-width: fit-content;
     border-radius: 25px;
-    padding: 8px 15px;
+    padding: 25px 10px;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .btn{
-    padding: 30px 50px;
+    padding: 10px 15px;
     width: max-content;
     border-radius: 0px;
     color: var(--btn-color);
