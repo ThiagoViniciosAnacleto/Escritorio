@@ -21,18 +21,6 @@ header{
     /* background-color: white; */
 }
 
-
-header .collapsible-header{
-    display: flex;
-    gap: 8px;
-    color: white;
-    margin-left: 5%;
-    width: 100%;
-    overflow: hidden;
-    align-items: center;
-    /* transition: width 0.3s ease; */
-}
-
 .animated-collapse{
     transition: width 0.3s ease;
 }
@@ -43,12 +31,7 @@ header .collapsible-header{
     min-width: fit-content;
     border-radius: 25px;
     padding: 8px 15px;
-    color: #cecece;
     transition: background-color 0.3s, color 0.3s;
-}
-
-.header-links:hover {
-    color: #fff;
 }
 
 .gradient{
@@ -58,9 +41,6 @@ header .collapsible-header{
     background: linear-gradient(180deg, rgba(40,46,63,1) 5%, rgba(40, 46, 63, 0.652) 85%);
 }
 
-.primary-text-color{
-    color: var(--primary-text-color);
-}
 
 .grid-cols-min-auto {
     grid-template-columns: min-content auto auto;
@@ -83,7 +63,6 @@ header .collapsible-header{
     justify-content: center;
     align-items: center;
     display: flex;
-    gap: 10px;
 }
 
 .btn:hover{
@@ -94,8 +73,6 @@ header .collapsible-header{
     padding: 10px;
     border-radius: 0px;
     outline: none;
-    min-width: 100px;
-    border: 2px solid #cecece;
     transition: border 0.3s;
 }
 
