@@ -1,16 +1,19 @@
 
 :root{
-
     --primary-color: #282E3F;
-
     --btn-color: #fdfdfd;/* button color*/
     --btn-bg: #282E3F;/* button bg color*/
-
-    --primary-text-color: #282E3F;
-    /* --link-hover: #4f55c1; */
+    --primary-text-color: #fdfdfd;
+    --link-hover: #4f55c1;
     --input-hover-bd-color: #282E3F;
 }
 
+html {
+    scroll-behavior:inherit;
+    font-family: "Roboto", sans-serif;
+    size: 0cap;
+    /* font-family: Georgia, serif; */
+}
 
 .animated-collapse{
     transition: width 0.3s ease;
@@ -46,7 +49,7 @@
 }
 
 .btn{
-    padding: 30px 50px;
+    padding: 10px 15px;
     width: max-content;
     border-radius: 0px;
     color: var(--btn-color);
